@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+}
+
+.logo-and-links,
+.text-and-image {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links,
+.logo {
+  display: flex;
+  padding: 0;
+}
+
+.links {
+  gap: 10px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb
+}
+
+.logo {
+  align-items: center;
+  font-size: 24px;
+  color: #f9faf8;
+}
