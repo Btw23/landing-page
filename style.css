@@ -200,3 +200,13 @@ a {
   border-radius: 5px;
   background-color: inherit;
 }
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
